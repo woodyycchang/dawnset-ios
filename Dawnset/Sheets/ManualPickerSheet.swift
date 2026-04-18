@@ -67,7 +67,7 @@ struct ManualPickerSheet: View {
                             Circle()
                                 .fill(.secondary.opacity(0.4))
                                 .frame(width: 4, height: 4)
-                            Text(step.title)
+                            Text(step.act)
                                 .font(.system(size: DS.label))
                                 .foregroundStyle(.secondary)
                         }

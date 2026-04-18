@@ -35,11 +35,11 @@ struct CitationSheet: View {
             HStack {
                 Text(citation.level.displayName)
                     .font(.system(size: DS.caption, weight: .semibold))
-                    .foregroundStyle(citation.level.color)
+                    .foregroundStyle(citation.level.foregroundColor)
                     .tracking(0.5)
                     .padding(.horizontal, DS.gapS)
                     .padding(.vertical, DS.gapXS)
-                    .background(citation.level.color.opacity(0.1))
+                    .background(citation.level.backgroundColor)
                     .cornerRadius(DS.radiusChip)
 
                 Spacer()
