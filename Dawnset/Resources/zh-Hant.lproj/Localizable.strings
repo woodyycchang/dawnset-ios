@@ -1,0 +1,61 @@
+/*
+ Localizable.strings (zh-Hant)
+ Dawnset
+
+ MVP 階段所有使用者可見字串先集中這裡。
+ Stage 1–6 的 view 目前仍直接以中文字串書寫；未來國際化時
+ 把關鍵字串遷移到這份表並以 NSLocalizedString 取用即可。
+ */
+
+// Home
+"home.greeting.dock" = "Dawnset";
+"home.lowEnergyLink" = "今天有點不想動？";
+
+// Empty state
+"empty.now" = "現在";
+"empty.title" = "這個時間你不需要 Dawnset。";
+"empty.nextHintPrefix" = "下次建議：";
+"empty.footer" = "回去做你真正想做的事";
+
+// Pipeline run
+"pipeline.doneNext" = "做完・下一步";
+"pipeline.skip" = "略過";
+"pipeline.progress.format" = "進度 %1$d/%2$d・%3$d 分鐘";
+
+// Aha
+"aha.title" = "一切必要的都完成了";
+"aha.body.format" = "今天的%@已經就位。\n可以出門、可以開始工作、可以做你真正想做的事。";
+"aha.score.title" = "今晨影響分數";
+"aha.score.firstTime" = "這是你第一次累積分數";
+"aha.cta" = "出發";
+
+// Citation
+"citation.backToFlow" = "回到流程";
+"citation.section.findings" = "研究發現";
+"citation.section.relevance" = "為什麼跟這一步有關";
+"citation.section.limitations" = "限制";
+"citation.pubmedLink" = "PubMed 原文";
+
+// Low energy
+"lowEnergy.prompt" = "今天有點不想動？";
+"lowEnergy.quote" = "動機會在行動之後出現，不是在行動之前。";
+"lowEnergy.quoteSource" = "— 行為活化療法核心原則";
+"lowEnergy.fromEasiest" = "從最容易的開始：";
+"lowEnergy.fallback" = "給我標準流程";
+"lowEnergy.done.title" = "這樣就夠了";
+"lowEnergy.done.body" = "今天就這樣。休息比硬撐有用。";
+
+// Onboarding (v0.2: 移除 3 題問卷，只剩品牌頁與單一「開始」按鈕)
+"onboarding.welcome.title" = "不用自己想。\n跟著做就好。";
+"onboarding.welcome.footer" = "科學基礎：ACLM 六支柱・Harvard Li et al. 2018（N = 12 萬・30 年追蹤）";
+"onboarding.start" = "開始";
+
+// Impact
+"impact.title" = "你的累積影響";
+"impact.subtitle.format" = "過去 %d 天，以科學量化";
+"impact.hero.label" = "預期健康壽命增益";
+"impact.hero.unit" = "個月（若維持 30 年）";
+"impact.metric.fullDays.title" = "完整完成";
+"impact.metric.avgScore.title" = "平均分數";
+"impact.gaps.title.format" = "這 %d 天還沒覆蓋的";
+"impact.disclaimer" = "基於群體研究的估計，不等同個人命運";
